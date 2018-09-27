@@ -6,6 +6,7 @@ Checks that comments are removed when using an ID URI in a Reference.
 <?php
 require(dirname(__FILE__) . '/../xmlseclibs.php');
 use RobRichards\XMLSecLibs\XMLSecurityDSig;
+use RobRichards\XMLSecLibs\Utils\XPath.php';
 
 $doc = new DOMDocument();
 $doc->load(dirname(__FILE__) . '/withcomment-id-uri-object.xml');
