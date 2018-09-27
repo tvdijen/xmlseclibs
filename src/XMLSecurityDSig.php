@@ -6,6 +6,7 @@ use DOMElement;
 use DOMNode;
 use DOMXPath;
 use Exception;
+use Utils\XPath;
 
 /**
  * xmlseclibs.php
