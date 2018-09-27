@@ -4,7 +4,7 @@ Test for ds:RetrievalMethod.
 <?php
 require(dirname(__FILE__) . '/../xmlseclibs.php');
 use RobRichards\XMLSecLibs\XMLSecEnc;
-use RobRichards\XMLSecLibs\Utils\XPath.php;
+use RobRichards\XMLSecLibs\Utils\XPath;
 
 $doc = new DOMDocument();
 $doc->load(dirname(__FILE__) . "/retrievalmethod-findkey.xml");
